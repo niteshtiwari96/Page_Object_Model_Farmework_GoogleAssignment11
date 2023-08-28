@@ -1,0 +1,70 @@
+12:46:00,851 DEBUG devpinoyLogger:32 - Launching Browser
+12:46:01,124 DEBUG InternalLoggerFactory:89 - Using Log4J as the default logging framework
+12:46:01,128 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+12:46:01,130 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+12:46:01,136 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7e0b85f9
+12:46:01,157 DEBUG PlatformDependent0:460 - -Dio.netty.noUnsafe: false
+12:46:01,157 DEBUG PlatformDependent0:954 - Java version: 8
+12:46:01,158 DEBUG PlatformDependent0:135 - sun.misc.Unsafe.theUnsafe: available
+12:46:01,160 DEBUG PlatformDependent0:159 - sun.misc.Unsafe.copyMemory: available
+12:46:01,161 DEBUG PlatformDependent0:202 - java.nio.Buffer.address: available
+12:46:01,162 DEBUG PlatformDependent0:272 - direct buffer constructor: available
+12:46:01,163 DEBUG PlatformDependent0:350 - java.nio.Bits.unaligned: available, true
+12:46:01,163 DEBUG PlatformDependent0:424 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+12:46:01,163 DEBUG PlatformDependent0:446 - java.nio.DirectByteBuffer.<init>(long, int): available
+12:46:01,164 DEBUG PlatformDependent:1103 - sun.misc.Unsafe: available
+12:46:01,164 DEBUG PlatformDependent:1224 - -Dio.netty.tmpdir: C:\Users\Nitesh\AppData\Local\Temp (java.io.tmpdir)
+12:46:01,165 DEBUG PlatformDependent:1303 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+12:46:01,165 DEBUG PlatformDependent:1063 - Platform: Windows
+12:46:01,167 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: 1888485376 bytes
+12:46:01,167 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+12:46:01,168 DEBUG CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+12:46:01,169 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+12:46:01,177 DEBUG PlatformDependent:967 - org.jctools-core.MpscChunkedArrayQueue: available
+12:46:01,198 DEBUG InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+12:46:01,198 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+12:46:01,690 DEBUG JdkSslContext:97 - Default protocols (JDK): [TLSv1.2] 
+12:46:01,690 DEBUG JdkSslContext:98 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+12:46:01,714 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+12:46:01,723 DEBUG NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+12:46:01,724 DEBUG NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+12:46:01,768 DEBUG PooledByteBufAllocator:155 - -Dio.netty.allocator.numHeapArenas: 16
+12:46:01,768 DEBUG PooledByteBufAllocator:156 - -Dio.netty.allocator.numDirectArenas: 16
+12:46:01,768 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.pageSize: 8192
+12:46:01,768 DEBUG PooledByteBufAllocator:163 - -Dio.netty.allocator.maxOrder: 11
+12:46:01,768 DEBUG PooledByteBufAllocator:167 - -Dio.netty.allocator.chunkSize: 16777216
+12:46:01,768 DEBUG PooledByteBufAllocator:168 - -Dio.netty.allocator.smallCacheSize: 256
+12:46:01,768 DEBUG PooledByteBufAllocator:169 - -Dio.netty.allocator.normalCacheSize: 64
+12:46:01,768 DEBUG PooledByteBufAllocator:170 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+12:46:01,768 DEBUG PooledByteBufAllocator:171 - -Dio.netty.allocator.cacheTrimInterval: 8192
+12:46:01,768 DEBUG PooledByteBufAllocator:172 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+12:46:01,770 DEBUG PooledByteBufAllocator:173 - -Dio.netty.allocator.useCacheForAllThreads: true
+12:46:01,770 DEBUG PooledByteBufAllocator:174 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+12:46:01,778 DEBUG ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+12:46:01,778 DEBUG ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+12:46:01,779 DEBUG ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+12:46:02,662 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 1572 (auto-detected)
+12:46:02,664 DEBUG NetUtil:135 - -Djava.net.preferIPv4Stack: false
+12:46:02,664 DEBUG NetUtil:136 - -Djava.net.preferIPv6Addresses: false
+12:46:02,925 DEBUG NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+12:46:02,926 DEBUG NetUtil:187 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+12:46:03,338 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: 84:fd:d1:ff:fe:0a:c5:d0 (auto-detected)
+12:46:03,413 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+12:46:03,413 DEBUG AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+12:46:03,413 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@639eb3ee
+12:46:03,438 DEBUG Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+12:46:03,438 DEBUG Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+12:46:03,439 DEBUG Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+12:46:03,439 DEBUG Recycler:106 - -Dio.netty.recycler.ratio: 8
+12:46:03,439 DEBUG Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+12:46:09,588 DEBUG Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+12:46:10,146 DEBUG devpinoyLogger:48 - Url opening
+12:46:28,977 DEBUG devpinoyLogger:33 - Click on google Apps
+12:46:29,483 DEBUG devpinoyLogger:36 - Click on Gmail Apps
+12:46:43,755 DEBUG devpinoyLogger:32 - Click on Gmail SignIn Button
+12:46:54,771 DEBUG devpinoyLogger:34 - Enter Username
+12:46:55,391 DEBUG devpinoyLogger:36 - Click on user next button
+12:46:57,951 DEBUG devpinoyLogger:38 - Enter Password
+12:47:01,219 DEBUG devpinoyLogger:40 - Click on pass next button
+12:47:08,405 DEBUG devpinoyLogger:33 - count Unread emails in an INBOX
+12:47:32,883 DEBUG devpinoyLogger:40 - count read emails in an INBOX
